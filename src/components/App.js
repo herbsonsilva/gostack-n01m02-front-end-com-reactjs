@@ -6,7 +6,11 @@ import Menu from './Menu';
 export default function App() {
   return (
     <>
-      <Header />
+      <Header title="Meu Site">
+        <ul>
+          <li>Link</li>
+        </ul>
+      </Header>
       <Menu />
     </>
   );
