@@ -11,12 +11,19 @@ export default function App() {
 
   useEffect(() => {
     api.get('/projects').then(response => {
-      console.log(response);
+      setProjects(response.data);
     });
   }, []);
 
-  function handleAddTech() {
-    setProjects([...projects, `New project ${ Date.now() }`]);
+  async function handleAddTech() {
+    const response = await api.post('/projects', {
+      title: `Novo projeto ${ Date.now() }`,
+      owner: "Herbson Silva"
+    });
+
+    const project = response.data;
+
+    setProjects([...projects, project]);
   }
 
   return (
