@@ -37,7 +37,7 @@
 
 ## :rocket: Sobre
 
-Repositório contendo o código feito nas aulas do GoStack Bootcamp da Rocketseat sobre Front-end com ReactJS
+Repositório contendo o código feito nas aulas do [GoStack Bootcamp da Rocketseat](https://rocketseat.com.br/) sobre Front-end com ReactJS
 
 Aqui foi visto os principais conceitos do ReactJS e como aplicá-los na construção de uma aplicação front-end.
 
