@@ -61,6 +61,8 @@ Aqui foi visto os principais conceitos do ReactJS e como aplicá-los na constru�
 
 - Cadastrando Projetos
 
+## :memo: Licença
+
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../master/LICENSE) para mais detalhes.
 
 ---
